@@ -1,6 +1,6 @@
 #Obtain age from user: Age Classifier
 age = int(input("Please enter the age of desired person: "))
-# Testing klkl
+
 if age <= 1:
     print ("Individual is a an infant")
 if age > 1 and age < 13:

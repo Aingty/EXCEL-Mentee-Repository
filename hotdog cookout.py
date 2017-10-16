@@ -13,8 +13,3 @@ print('Minimum required packages of buns:',num_bunpack)
 print('Minimum required packages of hotdogs:',num_hotdogpack)
 print('Hotdog remainder:',remain_buns)
 print('Bun remainder:',remain_hotdogs)
-
-
-
-
-6

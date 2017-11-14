@@ -1,0 +1,19 @@
+Instructions
+
+Before performing each of the following tasks, prompt the user 
+for two positive integers and validate the input individually 
+upon entry
+Create a program that will
+add the two numbers and display the sum
+mutiply the two numbers and display the product
+Display the bigger of the two numbers
+Display the smaller of the two numbers
+subtract the smaller number from the bigger number and display 
+the result
+divide the bigger number by the smaller number and display the 
+result - remember you can't divide by zero
+
+
+
+Save your work as yourName_lab7_part_1 and submit under lab 7 
+dropbox today before midnight

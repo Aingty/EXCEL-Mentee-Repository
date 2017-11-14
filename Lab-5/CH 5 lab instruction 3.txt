@@ -1,0 +1,78 @@
+Do not overwrite Part 2 - create a new file
+
+In this lab you will 
+- define, call, and reuse value returning function - getNum()
+- define and call a function that receives its input via 
+arguments - displayResult(resultName, resultValue)
+- reuse functions - getNum() and displayResult() to get numbers 
+and display result for each function
+- pass arguments to functions
+
+
+Modify part 2 of the lab 5 to include the following 
+create value returning functions with the following  
+specifications
+getNum()
+- this function is to validate the input is a positive numeric 
+value.
+- get input from the user
+ 	Remember - input function returns a string value. You can 
+	 use some of the available string methods 
+	in python to verify the content of the string.  For example 
+	- you can use isdigit method to verify, 
+	if the value entered by user upon prompt is a number. if 
+	num = '9' then num.isdigit() will return True 
+	pager 352 of your textbook - for string method isdigit() or 
+	online at 
+	https://docs.python.org/3/library/stdtypes.html#str.isdigit
+		
+- Use isdigit function with the previous condition you created 
+to ensure user input is a positive number - non numveric values 
+should not go thru
+- Use logical operators to create a compound condition.  
+Also do not forget both conditions in the compund statement 
+has to be true for the compund cndition to evaluate to True
+- Sequence your condtions in the compund condition to take 
+advantage of short-ciruct evaluation - basically, first 
+check input is digit and then check the digit is more than 0
+- Note- identify what is desirable - positive integer.  
+Your input validation loop should continue until you get a 
+positvie integer	
+	For more info on this check page 147 - for input validation 
+	loop	
+- should return the positive integer only
+
+
+create a displayResult function with the following 
+specification
+displayResult(resultName, resultValue) # intended for a call 
+from within each function
+- can be called from the main or the individual functions - 
+you can adjust function header and other items as needed to 
+fit the call from main
+- resultName can be 'sum','prodcut','Min','Max','Difference', 
+or 'Quotient'
+- resultValue will be the local variable that holds the value 
+of the sum, product, min,max,difference, or quotient
+- receives the resultName and resultValue as arguments
+- print(resultName, " is = ',resultValue)
+
+
+Modify the following functions so that they use the 
+getNUmber() - to get the numbers and displayResult() - to 
+display the result funtions
+calcSum(num1, num2)
+calcProduct(num1, num2)
+displayMinNum(num1, num2)
+displayMaxNum(num1, num2)
+calcDifference(num1, num2)
+calcQuotient(num1, num2)
+main()
+
+
+run/call the functions from the main function
+
+run/call the main function
+
+Save your work as yourName_lab7_part_3 and submit under lab 7 
+dropbox today before midnight

@@ -1,0 +1,27 @@
+Do not overwrite Part 1 - create a new file
+
+The purpsoe of this lab is for you to learn how to define and 
+call void ( functions that do not return a value)
+
+create the following void functions using the code you created 
+in the last lab.
+Make sure the previous lab works before starting this one
+
+calcSum()
+calcProduct()
+displayMinNum()
+displayMaxNum()
+calcDifference()
+calcQuotent()
+main()
+
+run/call the functions from the main function
+
+run/call the main function
+
+
+Save your work as yourName_lab7_part_2 and submit under lab 7 
+dropbox today before midnight
+
+
+

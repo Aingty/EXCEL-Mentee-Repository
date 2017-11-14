@@ -1,0 +1,40 @@
+Do not overwrite Part 3 - create a new file
+
+
+complete the followin as instruction 4 and submit all 4 variations into Lab 7 dropbox
+
+
+let every function get its input via parameter/argument and return result
+can replace getNum() with getNums() function that will return two values or call getNum() twice to get two numbers
+
+create a function called menu()
+- should display the following menu options
+1- add
+2- multiply
+3- min
+4- max
+5- subtract
+6- divide
+7- quit
+
+- get user selection
+- make sure to validate user selection - only allow the seven options
+- return user selection
+
+
+Modify main function
+- call the menu()
+- as long as user did not choose 7 to quit 
+	call getNum() or getNums() function to get the numbers 
+	call appropriate functions based on user selection
+	Example - 
+		if user choice is 1 - calcSum function should be called
+		if user choice is 2 - calcProduct function should be called
+		... etc.
+		   
+		   
+- continue runing the program until user selects 7 to quit
+
+- incorporate exception handling where applicable
+
+Save your work as yourName_lab7_part_4 and submit under lab 7 dropbox today before midnight

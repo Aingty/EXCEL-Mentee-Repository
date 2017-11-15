@@ -1,12 +1,9 @@
 def getNum():
-    number1=input('Enter first number here: ')
+    number1=input('Enter a number here: ')
     while number1.isdigit()==False:
-        while number1<=0:
-            number1=input('ERROR: Enter a positive integer here: ')
-    number2=int(input('Enter second number here: '))
-    while number2.isdigit()==False:
-        while number2<=0:
-            number2=int(input('ERROR: Enter a positive integer here: '))
+        number1=input('ERROR: Enter a positive integer here: ')
+    number1=int(number1)
+    return number1
 def calcSum(number1, number2):
     sum=number1+number2
     return sum
@@ -39,7 +36,8 @@ def displayResult(sum, product, small, big, difference, quotient):
     print('Difference is: ', difference)
     print('Quotient is: %.2f' %quotient)
 def main():
-    getNum()
+    number1=getNum()
+    number2=getNum()
     sum=calcSum(number1, number2)
     product=calcProduct(number1, number2)
     small=displayMinNum(number1, number2)
